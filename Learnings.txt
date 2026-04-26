@@ -1,0 +1,1 @@
+we create root variables in CSS

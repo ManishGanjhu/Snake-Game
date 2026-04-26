@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://imgs.search.brave.com/d6zayttb239ytgToKD8e_950iiPFjyNEMibfRtiDXs8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/MDQ1LzY2NS9zbWFs/bC9hLXBsYXlmdWwt/Y2FydG9vbi1zbmFr/ZS1jaGFyYWN0ZXIt/d2l0aC1hLWZyaWVu/ZGx5LXNtaWxlLWFu/ZC1icmlnaHQtZ3Jl/ZW4tY29sb3ItcG5n/LnBuZw">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section>
+        <div class="infos">
+            <div class="info">
+                <h3>High Score : <span id="high-score">0</span></h3>
+            </div>
+            <div class="info">
+                <h3>Score : 
+                    <span id="score">0</span></h3>
+            </div>
+            <div class="info">
+                <h3>Time : 
+                    <span id="time">00-00</span>
+                </h3>
+            </div>
+        </div>
+        <div class="board"></div>
+    </section>
+    <div class="modal">
+        <div class="start-game">
+            <h3>Welcome to snake game</h3>
+            <button class="btn btn-start">Start Game</button>
+        </div>
+        <div class="game-over">
+            <h3>Game Over!</h3>
+            <button class="btn btn-restart">Restart Game</button>
+        </div>
+    </div>
+  </main>
+    <script src="script.js"></script>
+</body>
+</html>
