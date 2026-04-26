@@ -8,5 +8,4 @@ A task management app with drag-and-drop functionality and local storage support
 - Persistent storage using localStorage
 
 ## Tech Stack
-- React
-- Tailwind CSS
+-html,css,js
