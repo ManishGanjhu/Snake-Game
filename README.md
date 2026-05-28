@@ -1,4 +1,4 @@
-# 🐍 Snake Game
+# 🐍 Snake Game (https://snake-generic.netlify.app/)
 
 A classic snake game built using JavaScript where the player controls a snake to eat food, grow in size, and avoid collisions.
 
